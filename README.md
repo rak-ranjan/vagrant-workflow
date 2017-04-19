@@ -8,9 +8,13 @@ The purpose of this tutorial is to build a fully automated build, test, and depl
 
 The tool of choice to achieve the same is Vagrant.
 
-*Note: we will test our API before developing it by simulating the context in which it is going to be used. For example, we ask financial analysts to prepare a balance sheet page and then compare the information they deem relevant with a HTML table mockup we prepared.
+*Note: we will test our API before developing it by simulating the context in which it is going to be used. For example, we ask financial analysts to prepare a balance sheet page and then compare the information they deem relevant with a HTML table mockup we prepared.*
 
-This is out of scope for the tutorial but a future version of this tutorial will definitely include an example!!\*
+*This is out of scope for the tutorial but a future version of this tutorial will definitely include an example!!*
+
+The overall pipeline is illustrated in the schematic below. Using Vagrant to specify the machine in which our web application is to run allows us to test it in a production-like environment without having to deploy to a provider such as AWS.
+
+![Schematic](./Concept.png)
 
 GitHub folder structure
 -----------------------
