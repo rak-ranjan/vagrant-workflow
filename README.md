@@ -50,7 +50,7 @@ Working behind proxies
 
 Vagrant supports working behind proxies via its plugin infrastructure.
 
-Simple 'vagrant plugin install vagrant-proxyconf' and configure proxy settings in your Vagrantfile.
+Simple `vagrant plugin install vagrant-proxyconf` and configure proxy settings in your Vagrantfile.
 
 For details consult the plugin homepage:
 
@@ -78,7 +78,7 @@ We can use this tutorial as a beginner's guide to Test Driven Development (TDD) 
 
 https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
 
-Once we’re done writing code and testing locally (we can use VSCode for that), we commit our changes and 'vagrant up' our target environment.
+Once we’re done writing code and testing locally (we can use VSCode for that), we commit our changes and `vagrant up` our target environment.
 
 We’ll run the same set of tests but should consider issues such as database connectivity etc.
 
@@ -93,21 +93,24 @@ Putting it all together
 
 Start by installing all dependencies in your source directory:
 
-''' cd src npm install '''
+```
+cd src
+npm install
+```
 
 If you want to test the app before running it, type in:
 
-'npm test'
+`npm test`
 
 The test suite will run and print all test messages to the console.
 
 After testing passes, you can run the example by typing in:
 
-'node app/server.js'
+`node app/server.js`
 
 This will start the web application on http://localhost:4000/api
 
-The web application supports a single input parameter 'name'.
+The web application supports a single input parameter `name`.
 
 For example, try the following:
 
